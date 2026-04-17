@@ -1,0 +1,46 @@
+# Claude Code runtime state — never sync
+claude/.claude/projects/
+claude/.claude/cache/
+claude/.claude/sessions/
+claude/.claude/shell-snapshots/
+claude/.claude/statsig/
+claude/.claude/todos/
+claude/.claude/tasks/
+claude/.claude/teams/
+claude/.claude/telemetry/
+claude/.claude/backups/
+claude/.claude/file-history/
+claude/.claude/session-env/
+claude/.claude/paste-cache/
+claude/.claude/debug/
+claude/.claude/downloads/
+claude/.claude/ide/
+claude/.claude/plans/
+claude/.claude/plugins/cache/
+claude/.claude/plugins/installed_plugins.json
+claude/.claude/history.jsonl
+claude/.claude/*.jsonl
+claude/.claude/stats-cache.json
+claude/.claude/mcp-needs-auth-cache.json
+claude/.claude/gsd-file-manifest.json
+claude/.claude/security_warnings_state_*.json
+claude/.claude/vercel-plugin-*
+claude/.claude/package.json
+claude/.claude/.claude/
+claude/.claude/chrome/
+claude/.claude/get-shit-done/
+claude/.claude/config/
+
+# Personal overrides (machine-local)
+claude/.claude/settings.local.json
+claude/.claude/CLAUDE.local.md
+
+# Secrets (defense in depth)
+**/.env
+**/.env.*
+**/*.key
+**/*.pem
+**/credentials.json
+
+# OS
+.DS_Store
