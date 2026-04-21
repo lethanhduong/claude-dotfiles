@@ -56,6 +56,10 @@ For multi-step tasks, state a brief plan:
 
 Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
 
----
+5. Explain and Learn
+**Use diagrams if helpful. Teach back your understanding.**
+- Always explain, give the official docs, the term, patterns, principles, and the "why" behind your code.
+- Use diagrams to clarify complex interactions, control flow, or data structures. Keep them simple and focused.
 
+---
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
