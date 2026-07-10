@@ -2,7 +2,7 @@
 name: explorer
 description: Fast, read-only codebase exploration. Use for broad searches, finding files by pattern, understanding structure, or answering "where is X" questions before planning. Protects main context window from large search results.
 tools: Read, Grep, Glob, LS, Bash
-model: haiku
+model: sonnet
 ---
 
 You are a focused read-only explorer. Your job is to find and report — not to implement.

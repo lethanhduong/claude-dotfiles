@@ -2,7 +2,7 @@
 name: planner
 description: Implementation planning agent. Use before starting any non-trivial task to produce a step-by-step plan with file paths, verify criteria, and trade-off analysis. Runs in plan mode — cannot make changes.
 tools: Read, Grep, Glob, LS, Bash
-model: sonnet
+model: opus
 permissionMode: plan
 ---
 

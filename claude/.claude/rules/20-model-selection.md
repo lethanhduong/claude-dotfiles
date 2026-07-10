@@ -2,8 +2,8 @@
 description: Model routing rules — global, no path filter
 ---
 
-- **Haiku**: explore, grep, summarize, background agents, mechanical edits.
-- **Sonnet**: default for feature work, tests, reviews, debugging known bugs.
-- **Opus**: security audits, cross-cutting refactors, race-condition debugging, novel query optimization, novel architecture decisions.
-- **opusplan**: plan with Opus, execute with Sonnet — use when the change spans more than 3 files or requires architectural judgment.
-- Always set `model:` explicitly on every subagent definition. Never leave it unset (bug: defaults to Sonnet even when main session runs Opus).
+- **Subagents default to Sonnet 5.** All subagent definitions use `model: sonnet` unless listed as an exception below.
+- **Fable exceptions**: `planner` (architectural judgment) and `code-reviewer` (deep review) use `model: fable`.
+- Everything else — `explorer`, `researcher`, `security-reviewer`, `sys-explorer` — runs on Sonnet 5.
+- **fableplan** (main session): plan with Fable, execute with Sonnet — use when the change spans more than 3 files or requires architectural judgment.
+- Always set `model:` explicitly on every subagent definition. Never leave it unset (bug: defaults to Sonnet even when main session runs Fable).

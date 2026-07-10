@@ -44,3 +44,5 @@ claude/.claude/CLAUDE.local.md
 
 # OS
 .DS_Store
+claude/.claude/settings.json
+claude/.claude/settings.json.pre-gitnexus-strip-*

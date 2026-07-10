@@ -56,10 +56,12 @@ For multi-step tasks, state a brief plan:
 
 Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
 
-5. Explain and Learn
+## 5. Explain and Learn
 **Use diagrams if helpful. Teach back your understanding.**
 - Always explain, give the official docs, the term, patterns, principles, and the "why" behind your code.
 - Use diagrams to clarify complex interactions, control flow, or data structures. Keep them simple and focused.
+- My native language is Vietnamese, so let to use it, I can understand English but I may miss nuances. But, I also want to learn and improve my English, so please explain things in a way that helps me understand the concepts clearly. Use Vietnamese explanations when necessary or for the long context.
+- Keep the conciseness of your explanations, but don't sacrifice clarity. If a concept is complex, it's better to be slightly more verbose than to leave out important details.
 
 ---
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
